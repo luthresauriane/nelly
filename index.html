@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <style>
+        body{
+            height: 100vh;
+            /* display: grid;
+            place-items: center; */
+            background-image: linear-gradient(50deg, rgb(26, 24, 24), rgb(24, 20, 20));
+        }
+        .container{
+            height: 100vh;
+        }
+        img{
+            border-radius: 20px;
+            width: 100%;
+            height: 100%;
+        }
+    </style>
+</head>
+<body>
+    <div class="container my-1">
+        <div class="carousel slide" id="diaporama" data-bs-ride="carousel">
+
+             <div class="carousel-indicators">
+                <button type="button" data-bs-target="#diaporama" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#diaporama" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#diaporama" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#diaporama" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                <button type="button" data-bs-target="#diaporama" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                <button type="button" data-bs-target="#diaporama" data-bs-slide-to="5" aria-label="Slide 6"></button>
+                <button type="button" data-bs-target="#diaporama" data-bs-slide-to="6" aria-label="Slide 7"></button>
+            </div>
+
+            <div class="carousel-inner">
+                <div class="carousel-item  active">
+                    <img src="./src/pic_1.jpg" class="img-fluid d-block w-100 shadow" alt="">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>First slide label</h5>
+                        <p>Some representative placeholder content for the first slide.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="./src/pic_2.jpg" class="img-fluid d-block shadow w-100" alt="">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Second slide label</h5>
+                        <p>Some representative placeholder content for the first slide.</p>
+                    </div>
+                </div>
+                <div class="carousel-item ">
+                    <img src="./src/pic_3.jpg" class="img-fluid d-block shadow w-100" alt="">
+                    <div class="carousel-caption d-none d-md-block">
+        <h5>Third slide label</h5>
+        <p>Some representative placeholder content for the third slide.</p>
+      </div>
+                </div>
+                <div class="carousel-item ">
+                    <img src="./src/pic_4.jpg" class="img-fluid d-block shadow w-100" alt="">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Fourth slide label</h5>
+                        <p>Some representative placeholder content for the Fourth slide.</p>
+                    </div>
+                </div>
+                <div class="carousel-item ">
+                    <img src="./src/pic_5.jpg" class="img-fluid shadow d-block w-100" alt="">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Fifth slide label</h5>
+                        <p>Some representative placeholder content for the  fifth slide.</p>
+                    </div>
+                </div>
+                <div class="carousel-item shadow">
+                    <img src="./src/pic_6.jpg" class="img-fluid d-block shadow w-100" alt="">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Sixth slide label</h5>
+                        <p>Some representative placeholder content for the sixth slide .</p>
+                    </div>
+                </div>
+                <div class="carousel-item ">
+                    <img src="./src/pic_7.jpg" class="img-fluid d-block shadow w-100" alt="">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Seventh slide label</h5>
+                        <p>Some representative placeholder content for the seventh slide.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <button class="carousel-control-prev" data-bs-slide="prev" type="button" data-bs-target="#diaporama">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#diaporama" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+    
+    <script src="./bootstrap-5.3.7-dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+</body>
+</html>
